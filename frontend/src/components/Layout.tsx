@@ -20,11 +20,13 @@ interface LayoutProps {
 
 function NavLinkWithAccount({ to, label, end }: { to: string; label: string; end?: boolean }) {
   const { accountId } = useAccount();
-  const href = accountId ? `${to}?account=${accountId}` : to;
+  const destination = accountId
+    ? { pathname: to, search: `?account=${accountId}` }
+    : to;
 
   return (
     <NavLink
-      to={href}
+      to={destination}
       end={end}
       className={({ isActive }) =>
         isActive ? "nav-link nav-link--active" : "nav-link"
@@ -37,11 +39,13 @@ function NavLinkWithAccount({ to, label, end }: { to: string; label: string; end
 
 function NavCtaLink() {
   const { accountId } = useAccount();
-  const href = accountId ? `/tee-up?account=${accountId}` : "/tee-up";
+  const destination = accountId
+    ? { pathname: "/tee-up", search: `?account=${accountId}` }
+    : "/tee-up";
 
   return (
     <NavLink
-      to={href}
+      to={destination}
       className={({ isActive }) =>
         isActive ? "nav-cta nav-cta--active" : "nav-cta"
       }
