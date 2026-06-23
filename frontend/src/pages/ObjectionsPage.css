@@ -1,0 +1,71 @@
+.arc-legend {
+  display: flex;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-lg);
+}
+
+.arc-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.arc-letter {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: var(--weight-semibold);
+  font-size: var(--font-size-sm);
+  color: white;
+}
+
+.arc-letter--a {
+  background: var(--color-primary);
+}
+
+.arc-letter--r {
+  background: var(--color-warning);
+}
+
+.arc-letter--c {
+  background: var(--color-success);
+}
+
+.objection-item summary {
+  font-size: var(--font-size-base);
+  line-height: var(--leading-relaxed);
+}
+
+.objection-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+.objection-block {
+  padding: var(--space-md);
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+}
+
+.objection-label {
+  display: block;
+  font-size: var(--font-size-xs);
+  font-weight: var(--weight-semibold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.objection-block p {
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}

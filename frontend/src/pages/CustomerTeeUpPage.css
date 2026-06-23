@@ -1,0 +1,190 @@
+.tee-up-empty {
+  background: var(--color-bg);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+}
+
+.tee-up-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.tee-up-copy-btn {
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--radius-pill);
+  font-size: var(--font-size-sm);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+}
+
+.tee-up-copy-btn:hover {
+  background: var(--color-primary-hover);
+}
+
+.tee-up-actions-note {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-tertiary);
+}
+
+.customer-landing-preview {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.customer-landing-header {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    #5b21b6 100%
+  );
+  color: white;
+  padding: var(--space-2xl) var(--space-xl);
+}
+
+.customer-landing-badge {
+  display: inline-block;
+  font-size: var(--font-size-xs);
+  font-weight: var(--weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-pill);
+  margin-bottom: var(--space-md);
+}
+
+.customer-landing-header h2 {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-tight);
+  margin-bottom: var(--space-md);
+  color: white;
+}
+
+.customer-landing-intro {
+  font-size: var(--font-size-base);
+  line-height: var(--leading-relaxed);
+  color: rgba(255, 255, 255, 0.92);
+  max-width: 640px;
+}
+
+.customer-landing-section {
+  padding: var(--space-xl);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.customer-landing-section:last-of-type {
+  border-bottom: none;
+}
+
+.customer-landing-section h3 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--weight-semibold);
+  margin-bottom: var(--space-md);
+}
+
+.customer-landing-agenda {
+  padding-left: var(--space-lg);
+  font-size: var(--font-size-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-text-secondary);
+}
+
+.customer-landing-agenda li {
+  margin-bottom: var(--space-sm);
+}
+
+.customer-landing-pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-md);
+}
+
+.customer-landing-pillar {
+  background: var(--color-primary-light);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+}
+
+.customer-landing-pillar-name {
+  display: block;
+  font-size: var(--font-size-xs);
+  font-weight: var(--weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--color-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.customer-landing-pillar strong {
+  display: block;
+  margin-bottom: var(--space-xs);
+}
+
+.customer-landing-pillar p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.customer-landing-demo {
+  margin-bottom: var(--space-md);
+  padding: var(--space-md);
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+}
+
+.customer-landing-demo strong {
+  display: block;
+  margin-bottom: var(--space-xs);
+}
+
+.customer-landing-demo p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.customer-landing-proof-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md);
+}
+
+.customer-landing-proof {
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+.customer-landing-metric {
+  display: block;
+  font-size: var(--font-size-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.customer-landing-proof p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-top: var(--space-xs);
+}
+
+.customer-landing-footer {
+  padding: var(--space-lg) var(--space-xl);
+  background: var(--color-bg);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}

@@ -1,0 +1,26 @@
+{
+  "sites": {
+    "cco-ai-playbook": {
+      "appId": "",
+      "versionId": "",
+      "featureId": "",
+      "cdnUrl": "",
+      "directory": "frontend",
+      "description": "CSM/AM playbook: guiding existing customers on monday AI capabilities",
+      "pages": [
+        "/",
+        "/account/:accountId",
+        "/account/:accountId/pilot",
+        "/messaging",
+        "/tee-up",
+        "/proof",
+        "/why-now",
+        "/discovery",
+        "/talk-tracks",
+        "/objections",
+        "/editor"
+      ],
+      "lastDeployed": ""
+    }
+  }
+}

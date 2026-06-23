@@ -1,0 +1,12 @@
+{
+  "name": "Site: cco-ai-playbook",
+  "description": "CSM/AM playbook for guiding existing customers from monday work management to the AI work platform",
+  "features": [
+    {
+      "type": "AppFeatureBoardView",
+      "name": "cco-ai-playbook",
+      "settings": {}
+    }
+  ],
+  "oauthScopes": []
+}

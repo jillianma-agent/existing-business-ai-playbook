@@ -1,0 +1,67 @@
+.persona-registry-hint {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-md);
+}
+
+.persona-registry-empty {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.persona-registry-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.persona-registry-table th,
+.persona-registry-table td {
+  text-align: left;
+  padding: var(--space-md) var(--space-lg);
+  border-bottom: 1px solid var(--color-border-light);
+  font-size: var(--font-size-sm);
+}
+
+.persona-registry-table th {
+  font-size: var(--font-size-xs);
+  font-weight: var(--weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-tertiary);
+  background: var(--color-bg);
+}
+
+.persona-registry-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.persona-file-name {
+  font-family: ui-monospace, "SF Mono", monospace;
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+
+.persona-version {
+  color: var(--color-text-secondary);
+}
+
+.persona-status {
+  display: inline-block;
+  font-size: var(--font-size-xs);
+  font-weight: var(--weight-medium);
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--color-border-light);
+  color: var(--color-text-secondary);
+  text-transform: capitalize;
+}
+
+.persona-status--published {
+  background: var(--color-success-light);
+  color: #0a7a45;
+}
