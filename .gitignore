@@ -7,3 +7,6 @@ dist.zip
 *.log
 .env
 .env.*
+existing-business-ai-playbook-site.zip
+frontend/.netlify/
+frontend/dist/
