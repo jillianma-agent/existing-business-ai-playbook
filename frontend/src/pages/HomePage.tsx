@@ -51,29 +51,6 @@ const sections = [
   },
 ];
 
-const principles = [
-  {
-    title: "Universal foundation",
-    description:
-      "Messaging, talk tracks, proof, and objections are static and shared. One source of truth for GTM.",
-  },
-  {
-    title: "Account personalization",
-    description:
-      "Live Snowflake + Salesforce signals rank and pre-fill every element for each customer.",
-  },
-  {
-    title: "PMM-approved AI language",
-    description:
-      "Lead with capability value — sidekick, agents, AI workflows, vibe — not a platform migration pitch.",
-  },
-  {
-    title: "De-risk the first step",
-    description:
-      "One workflow, one metric, 30 days. You own the demo and the pilot motion.",
-  },
-];
-
 export default function HomePage() {
   const accounts = listAccounts();
   const navigate = useNavigate();
@@ -186,18 +163,6 @@ export default function HomePage() {
               <p>{s.description}</p>
               <span className="link-arrow">Open section →</span>
             </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="section">
-        <h2 className="section-title">How the two layers work</h2>
-        <div className="grid">
-          {principles.map((p) => (
-            <div className="card" key={p.title}>
-              <h3>{p.title}</h3>
-              <p>{p.description}</p>
-            </div>
           ))}
         </div>
       </section>
